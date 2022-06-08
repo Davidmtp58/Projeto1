@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Youpay</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <div id="login-container">
+        <h1>Informações de Acesso</h1>
+        <p class="contents">
+          Prencha os campos abaixo com as informções que você vai usar para
+          acessar o nosso aplicativo
+        </p>
+        <form action="">
+          <label for="email">E-mail</label><br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Digite o seu e-mail"
+          />
+          <br />
+          <label for="password">Senha</label> <br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Digite a sua senha"
+          />
+          <br />
+          <label for="passconfirmation">Repita a sua senha</label> <br />
+          <input
+            type="passconfirmation"
+            name="passconfirmation"
+            id="passconfirmation"
+            placeholder="Confirme a sua senha"
+          /><br />
+            <input type="checkbox" name="agreement" id="agreement">
+            <label for="agreement">Eu li e aceito os <a href="#"> termos de uso</a> </label>
+        </div>
+        <div class="submit">
+            <input type="submt" id="btn-submit" value="Cadastrar">
+        </div>
+      </div>
+      <div class="background-image">
+        <img src="imagens/mockup.png" alt="exemplo tela de inicio">
+      </div>
+    </form>
+    <p class="erro-validation template"></p>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

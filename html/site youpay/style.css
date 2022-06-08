@@ -1,0 +1,32 @@
+body {
+  margin: auto;
+  box-sizing: border-box;
+  font-family: "Overpass";
+  margin-top: 5vh;
+  background-image: url;
+  
+}
+
+#login-container {
+  font: 32px;
+  color: #0d51ff;
+}
+.contents {
+  font-size: 18px;
+  color: black;
+}
+
+label{
+  font-size: 14px;
+  font-weight: bold;
+  color: #323232;
+}
+
+input{
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+a{
+    color: #0d51ff;
+}

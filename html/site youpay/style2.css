@@ -1,0 +1,55 @@
+*body {
+  margin:0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Overpass";
+  display: flex;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #323232;
+}
+.register-form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+}
+
+#login-container {
+  font-size: 32px;
+  color: black;
+  display: flex;
+}
+.contents {
+  font-size: 18px;
+  color: black;
+}
+
+input:focus,
+label:focus {
+  outline: none;
+  margin-bottom: 8px;
+}
+
+label{
+  margin-bottom: 8px;
+  align-content: flex-start;
+  flex-direction: column;
+}
+
+.background-img {
+    background-image: url(imagens/background.png);
+    width: 50%;
+    height: 50%;
+    padding-right: 0%;
+}
+
+.logo-img{
+  display: flex;
+  align-content: flex-start;
+  position: right top;
+}

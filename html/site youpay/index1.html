@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Youpay2</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="login-container">
+        <div>
+            <div class="logo-img">
+                <img src="imagens/youpayLogo.png" alt="logo-img">
+                <img src="imagens/logo_Adventista" alt="logo_Adventista">
+            </div>
+            <h1>Informações de Acesso</h1>
+            <p class="contents">Prencha os campos abaixo com as informções que você vai usar para
+                acessar o nosso aplicativo</p>
+            <form id="register-form">
+                <label for="email">E-mail</label><br>
+                    <input type="email" name="email" id="email" placeholder="Digite o seu e-mail"><br>
+                    <label for="password">Senha</label><br>
+                    <input type="password" name="password" id="password" placeholder="Digite a sua senha" ><br>
+                    <label for="passconfirmation">Confirme a sua senha</label><br>
+                    <input type="psasconfirmation" name="passconfirmation" id="passconfirmation" placeholder="Confirme a sua senha"><br>
+                    <input type="checkbox" name="agreement" id="agreement">
+                    <label for="agreement">Eu li e aceito os <a href="#">termos de uso</a></label><br>
+                    <input type="submit" id="bnt-submit" value="Cadastrar">
+            </form>
+        </div>
+        <div class="background-img">
+            <img class="icon" src="imagens/icon_youpay.png" alt="icon_youpay">
+            <img src="imagens/mockup.png" alt="imagem da tela">
+        </div>
+    <p class=" erro-validation template  "></p>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
